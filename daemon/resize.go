@@ -3,7 +3,7 @@ package daemon
 import (
 	"strconv"
 
-	"github.com/docker/docker/engine"
+	"github.com/rayzhoull/moby/api/engine"
 )
 
 func (daemon *Daemon) ContainerResize(job *engine.Job) engine.Status {

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/pkg/units"
+	"github.com/rayzhoull/moby/api/pkg/units"
 )
 
 type State struct {

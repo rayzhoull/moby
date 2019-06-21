@@ -1,6 +1,7 @@
 package tarsum
 
 import (
+	"archive/tar"
 	"bytes"
 	"compress/gzip"
 	"crypto/sha256"
@@ -11,9 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/pkg/log"
 )
 
 type TarSum struct {

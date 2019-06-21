@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 var (
@@ -145,7 +145,7 @@ func TestPushImageLayerRegistry(t *testing.T) {
 }
 
 func TestResolveRepositoryName(t *testing.T) {
-	_, _, err := ResolveRepositoryName("https://github.com/docker/docker")
+	_, _, err := ResolveRepositoryName("https://github.com/rayzhoull/moby/api")
 	assertEqual(t, err, ErrInvalidRepositoryName, "Expected error invalid repo name")
 	ep, repo, err := ResolveRepositoryName("fooo/bar")
 	if err != nil {

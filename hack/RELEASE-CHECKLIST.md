@@ -7,7 +7,7 @@ If your experience deviates from this document, please document the changes
 to keep it up-to-date.
 
 It is important to note that this document assumes that the git remote in your
-repository that corresponds to "https://github.com/docker/docker" is named
+repository that corresponds to "https://github.com/rayzhoull/moby/api" is named
 "origin".  If yours is not (for example, if you've chosen to name it "upstream"
 or something similar instead), be sure to adjust the listed snippets for your
 local environment accordingly.  If you are not sure what your upstream remote is
@@ -18,7 +18,7 @@ like:
 
 ```bash
 export GITHUBUSER="YOUR_GITHUB_USER"
-git remote add origin https://github.com/docker/docker.git
+git remote add origin https://github.com/rayzhoull/moby/api.git
 git remote add $GITHUBUSER git@github.com:$GITHUBUSER/docker.git
 ```
 

@@ -20,17 +20,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/symlink"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/pkg/tarsum"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/archive"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/nat"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/symlink"
+	"github.com/rayzhoull/moby/pkg/system"
+	"github.com/rayzhoull/moby/pkg/tarsum"
+	"github.com/rayzhoull/moby/registry"
+	"github.com/rayzhoull/moby/runconfig"
+	"github.com/rayzhoull/moby/utils"
 )
 
 func (daemon *Daemon) CmdBuild(job *engine.Job) engine.Status {

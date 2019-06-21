@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/docker/docker/reexec"
-	"github.com/docker/libcontainer"
-	"github.com/docker/libcontainer/namespaces"
-	"github.com/docker/libcontainer/syncpipe"
+	"github.com/rayzhoull/docker/libcontainer"
+	"github.com/rayzhoull/docker/libcontainer/namespaces"
+	"github.com/rayzhoull/docker/libcontainer/syncpipe"
+	"github.com/rayzhoull/moby/reexec"
 )
 
 func init() {

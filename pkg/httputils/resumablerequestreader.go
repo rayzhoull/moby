@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/pkg/log"
 )
 
 type resumableRequestReader struct {

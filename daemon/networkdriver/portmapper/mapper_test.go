@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/pkg/iptables"
+	"github.com/rayzhoull/moby/api/daemon/networkdriver/portallocator"
+	"github.com/rayzhoull/moby/api/pkg/iptables"
 )
 
 func init() {

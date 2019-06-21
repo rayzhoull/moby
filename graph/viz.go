@@ -3,8 +3,8 @@ package graph
 import (
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
 )
 
 func (s *TagStore) CmdViz(job *engine.Job) engine.Status {

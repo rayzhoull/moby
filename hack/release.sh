@@ -41,8 +41,8 @@ EOF
 [ "$AWS_ACCESS_KEY" ] || usage
 [ "$AWS_SECRET_KEY" ] || usage
 [ "$GPG_PASSPHRASE" ] || usage
-[ -d /go/src/github.com/docker/docker ] || usage
-cd /go/src/github.com/docker/docker
+[ -d /go/src/github.com/rayzhoull/moby/api ] || usage
+cd /go/src/github.com/rayzhoull/moby/api
 [ -x hack/make.sh ] || usage
 
 RELEASE_BUNDLES=(

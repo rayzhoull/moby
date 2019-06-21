@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/runconfig"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 // Set the max depth to the aufs default that most

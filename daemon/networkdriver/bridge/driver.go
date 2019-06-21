@@ -7,16 +7,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/networkdriver"
-	"github.com/docker/docker/daemon/networkdriver/ipallocator"
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/daemon/networkdriver/portmapper"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/iptables"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/networkfs/resolvconf"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/libcontainer/netlink"
+	"github.com/rayzhoull/docker/libcontainer/netlink"
+	"github.com/rayzhoull/moby/daemon/networkdriver"
+	"github.com/rayzhoull/moby/daemon/networkdriver/ipallocator"
+	"github.com/rayzhoull/moby/daemon/networkdriver/portallocator"
+	"github.com/rayzhoull/moby/daemon/networkdriver/portmapper"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/pkg/iptables"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/networkfs/resolvconf"
+	"github.com/rayzhoull/moby/pkg/parsers/kernel"
 )
 
 const (
@@ -158,7 +158,7 @@ func InitDriver(job *engine.Job) engine.Status {
 
 	bridgeNetwork = network
 
-	// https://github.com/docker/docker/issues/2768
+	// https://github.com/rayzhoull/moby/api/issues/2768
 	job.Eng.Hack_SetGlobalVar("httpapi.bridgeIP", bridgeNetwork.IP)
 
 	for name, f := range map[string]engine.Handler{

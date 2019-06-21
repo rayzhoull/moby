@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/opts"
-	flag "github.com/docker/docker/pkg/mflag"
+	"github.com/rayzhoull/moby/opts"
+	flag "github.com/rayzhoull/moby/pkg/mflag"
 )
 
 var (

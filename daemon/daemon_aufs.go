@@ -3,10 +3,10 @@
 package daemon
 
 import (
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/aufs"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver/aufs"
+	"github.com/rayzhoull/moby/api/graph"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 // Given the graphdriver ad, if it is aufs, then migrate it.

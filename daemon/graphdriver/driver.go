@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/pkg/mount"
 )
 
 type FsMagic uint64

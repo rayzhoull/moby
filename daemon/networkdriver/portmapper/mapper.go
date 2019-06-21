@@ -6,8 +6,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/pkg/iptables"
+	"github.com/rayzhoull/moby/api/daemon/networkdriver/portallocator"
+	"github.com/rayzhoull/moby/api/pkg/iptables"
 )
 
 type mapping struct {

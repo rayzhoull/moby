@@ -1,6 +1,7 @@
 package archive
 
 import (
+	"archive/tar"
 	"bufio"
 	"bytes"
 	"compress/bzip2"
@@ -16,11 +17,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	//"github.com/rayzhoull/moby/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/system"
+	"github.com/rayzhoull/moby/utils"
 )
 
 type (

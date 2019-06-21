@@ -10,9 +10,9 @@ import (
 	"strings"
 	"text/template"
 
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/registry"
+	flag "github.com/rayzhoull/moby/pkg/mflag"
+	"github.com/rayzhoull/moby/pkg/term"
+	"github.com/rayzhoull/moby/registry"
 )
 
 type DockerCli struct {

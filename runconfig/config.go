@@ -1,8 +1,8 @@
 package runconfig
 
 import (
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/nat"
 )
 
 // Note: the Config structure should hold only portable information about the container.

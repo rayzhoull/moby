@@ -1,7 +1,7 @@
 package docker
 
 import (
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/utils"
 	"runtime"
 	"testing"
 )

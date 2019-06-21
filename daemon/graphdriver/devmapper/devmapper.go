@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 type DevmapperLogger interface {

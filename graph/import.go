@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 func (s *TagStore) CmdImport(job *engine.Job) engine.Status {

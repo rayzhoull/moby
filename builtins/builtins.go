@@ -3,14 +3,14 @@ package builtins
 import (
 	"runtime"
 
-	"github.com/docker/docker/api"
-	apiserver "github.com/docker/docker/api/server"
-	"github.com/docker/docker/daemon/networkdriver/bridge"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/events"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/registry"
+	"github.com/rayzhoull/moby/api/api"
+	apiserver "github.com/rayzhoull/moby/api/api/server"
+	"github.com/rayzhoull/moby/api/daemon/networkdriver/bridge"
+	"github.com/rayzhoull/moby/api/dockerversion"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/events"
+	"github.com/rayzhoull/moby/api/pkg/parsers/kernel"
+	"github.com/rayzhoull/moby/api/registry"
 )
 
 func Register(eng *engine.Engine) error {

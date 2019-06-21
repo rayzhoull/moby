@@ -2,8 +2,8 @@ package links
 
 import (
 	"fmt"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/nat"
 	"path"
 	"strings"
 )

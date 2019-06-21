@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 func TestEventsPublish(t *testing.T) {

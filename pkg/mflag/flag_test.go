@@ -7,7 +7,7 @@ package mflag_test
 import (
 	"bytes"
 	"fmt"
-	. "github.com/docker/docker/pkg/mflag"
+	. "github.com/rayzhoull/moby/api/pkg/mflag"
 	"os"
 	"sort"
 	"strings"

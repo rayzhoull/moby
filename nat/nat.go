@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/parsers"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/version"
+	"github.com/rayzhoull/moby/api/api"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/pkg/version"
 )
 
 func TestGetBoolParam(t *testing.T) {

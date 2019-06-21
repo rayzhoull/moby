@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/mount"
 )
 
 func init() {

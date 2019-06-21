@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/nat"
+	"github.com/rayzhoull/moby/api/nat"
 )
 
 func parse(t *testing.T, args string) (*Config, *HostConfig, error) {

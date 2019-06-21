@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 const eventsLimit = 64

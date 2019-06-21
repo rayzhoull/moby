@@ -5,8 +5,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/pkg/signal"
 )
 
 // ContainerKill send signal to the container

@@ -12,31 +12,31 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/libcontainer/label"
+	"github.com/rayzhoull/docker/libcontainer/label"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/daemon/execdriver/execdrivers"
-	"github.com/docker/docker/daemon/execdriver/lxc"
-	"github.com/docker/docker/daemon/graphdriver"
-	_ "github.com/docker/docker/daemon/graphdriver/vfs"
-	_ "github.com/docker/docker/daemon/networkdriver/bridge"
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/broadcastwriter"
-	"github.com/docker/docker/pkg/graphdb"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/namesgenerator"
-	"github.com/docker/docker/pkg/networkfs/resolvconf"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/truncindex"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/archive"
+	"github.com/rayzhoull/moby/daemon/execdriver"
+	"github.com/rayzhoull/moby/daemon/execdriver/execdrivers"
+	"github.com/rayzhoull/moby/daemon/execdriver/lxc"
+	"github.com/rayzhoull/moby/daemon/graphdriver"
+	_ "github.com/rayzhoull/moby/daemon/graphdriver/vfs"
+	_ "github.com/rayzhoull/moby/daemon/networkdriver/bridge"
+	"github.com/rayzhoull/moby/daemon/networkdriver/portallocator"
+	"github.com/rayzhoull/moby/dockerversion"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/graph"
+	"github.com/rayzhoull/moby/image"
+	"github.com/rayzhoull/moby/pkg/broadcastwriter"
+	"github.com/rayzhoull/moby/pkg/graphdb"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/namesgenerator"
+	"github.com/rayzhoull/moby/pkg/networkfs/resolvconf"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/parsers/kernel"
+	"github.com/rayzhoull/moby/pkg/sysinfo"
+	"github.com/rayzhoull/moby/pkg/truncindex"
+	"github.com/rayzhoull/moby/runconfig"
+	"github.com/rayzhoull/moby/utils"
 )
 
 var (
@@ -1105,7 +1105,7 @@ func checkKernelAndArch() error {
 	// Unfortunately we can't test for the feature "does not cause a kernel panic"
 	// without actually causing a kernel panic, so we need this workaround until
 	// the circumstances of pre-3.8 crashes are clearer.
-	// For details see http://github.com/docker/docker/issues/407
+	// For details see http://github.com/rayzhoull/moby/api/issues/407
 	if k, err := kernel.GetKernelVersion(); err != nil {
 		log.Infof("WARNING: %s", err)
 	} else {

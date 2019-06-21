@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/graph"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/pkg/parsers"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 func (daemon *Daemon) ImageDelete(job *engine.Job) engine.Status {

@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/httputils"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/tarsum"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/pkg/httputils"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/tarsum"
+	"github.com/rayzhoull/moby/utils"
 )
 
 type Session struct {

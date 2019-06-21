@@ -14,15 +14,15 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/libcontainer"
-	"github.com/docker/libcontainer/apparmor"
-	"github.com/docker/libcontainer/cgroups/fs"
-	"github.com/docker/libcontainer/cgroups/systemd"
-	consolepkg "github.com/docker/libcontainer/console"
-	"github.com/docker/libcontainer/namespaces"
-	"github.com/docker/libcontainer/system"
+	"github.com/rayzhoull/docker/libcontainer"
+	"github.com/rayzhoull/docker/libcontainer/apparmor"
+	"github.com/rayzhoull/docker/libcontainer/cgroups/fs"
+	"github.com/rayzhoull/docker/libcontainer/cgroups/systemd"
+	consolepkg "github.com/rayzhoull/docker/libcontainer/console"
+	"github.com/rayzhoull/docker/libcontainer/namespaces"
+	"github.com/rayzhoull/docker/libcontainer/system"
+	"github.com/rayzhoull/moby/daemon/execdriver"
+	"github.com/rayzhoull/moby/pkg/term"
 )
 
 const (

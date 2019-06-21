@@ -9,6 +9,7 @@ import (
 	"encoding/json"
 	"expvar"
 	"fmt"
+	"golang.org/x/net/websocket"
 	"io"
 	"io/ioutil"
 	"net"
@@ -19,19 +20,18 @@ import (
 	"strings"
 	"syscall"
 
-	"code.google.com/p/go.net/websocket"
-	"github.com/docker/libcontainer/user"
 	"github.com/gorilla/mux"
+	"github.com/rayzhoull/docker/libcontainer/user"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/listenbuffer"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/systemd"
-	"github.com/docker/docker/pkg/version"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/pkg/listenbuffer"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/systemd"
+	"github.com/rayzhoull/moby/pkg/version"
+	"github.com/rayzhoull/moby/registry"
+	"github.com/rayzhoull/moby/utils"
 )
 
 var (

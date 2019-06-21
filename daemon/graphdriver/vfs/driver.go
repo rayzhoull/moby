@@ -3,7 +3,7 @@ package vfs
 import (
 	"bytes"
 	"fmt"
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
 	"os"
 	"os/exec"
 	"path"

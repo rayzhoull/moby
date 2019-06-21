@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/runconfig"
+	"github.com/rayzhoull/moby/api/nat"
+	"github.com/rayzhoull/moby/api/runconfig"
 )
 
 func migratePortMappings(config *runconfig.Config, hostConfig *runconfig.HostConfig) error {

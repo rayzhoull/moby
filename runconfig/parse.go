@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/opts"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/units"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/nat"
+	"github.com/rayzhoull/moby/opts"
+	flag "github.com/rayzhoull/moby/pkg/mflag"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/sysinfo"
+	"github.com/rayzhoull/moby/pkg/units"
+	"github.com/rayzhoull/moby/utils"
 )
 
 var (

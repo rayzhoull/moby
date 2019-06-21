@@ -3,7 +3,7 @@ package daemon
 import (
 	"time"
 
-	"github.com/docker/docker/engine"
+	"github.com/rayzhoull/moby/api/engine"
 )
 
 func (daemon *Daemon) ContainerWait(job *engine.Job) engine.Status {

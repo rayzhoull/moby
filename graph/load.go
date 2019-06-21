@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 // Loads a set of images into the repository. This is the complementary of ImageExport.

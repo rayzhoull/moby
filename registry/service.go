@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/docker/docker/engine"
+	"github.com/rayzhoull/moby/engine"
 )
 
 // Service exposes registry capabilities in the standard Engine

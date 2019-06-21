@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/pkg/log"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 func Unmount(target string) error {

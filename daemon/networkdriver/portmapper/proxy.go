@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/docker/docker/pkg/proxy"
-	"github.com/docker/docker/reexec"
+	"github.com/rayzhoull/moby/api/pkg/proxy"
+	"github.com/rayzhoull/moby/api/reexec"
 )
 
 const userlandProxyCommandName = "docker-proxy"

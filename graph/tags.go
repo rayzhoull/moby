@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/image"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/utils"
 )
 
 const DEFAULTTAG = "latest"

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/runconfig"
+	"github.com/rayzhoull/moby/api/runconfig"
 )
 
 func TestKillDifferentUser(t *testing.T) {

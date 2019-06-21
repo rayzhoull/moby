@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/parsers/filters"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/pkg/parsers/filters"
 )
 
 func (s *TagStore) CmdImages(job *engine.Job) engine.Status {

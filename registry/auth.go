@@ -11,7 +11,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/utils"
 )
 
 // Where we store the config file

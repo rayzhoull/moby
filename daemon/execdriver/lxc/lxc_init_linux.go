@@ -5,12 +5,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/daemon/execdriver/native/template"
-	"github.com/docker/libcontainer/namespaces"
-	"github.com/docker/libcontainer/security/capabilities"
-	"github.com/docker/libcontainer/system"
-	"github.com/docker/libcontainer/utils"
+	"github.com/rayzhoull/docker/libcontainer/namespaces"
+	"github.com/rayzhoull/docker/libcontainer/security/capabilities"
+	"github.com/rayzhoull/docker/libcontainer/system"
+	"github.com/rayzhoull/docker/libcontainer/utils"
+	"github.com/rayzhoull/moby/daemon/execdriver"
+	"github.com/rayzhoull/moby/daemon/execdriver/native/template"
 )
 
 func setHostname(hostname string) error {

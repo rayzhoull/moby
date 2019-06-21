@@ -1,6 +1,7 @@
 package archive
 
 import (
+	"archive/tar"
 	"bufio"
 	"bytes"
 	"fmt"
@@ -11,10 +12,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	//"github.com/rayzhoull/moby/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/system"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/system"
 )
 
 type ChangeType int

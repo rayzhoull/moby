@@ -2,12 +2,12 @@ package docker
 
 import (
 	"errors"
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/dockerversion"
+	"github.com/rayzhoull/moby/api/graph"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/utils"
 	"io"
 	"io/ioutil"
 	"os"

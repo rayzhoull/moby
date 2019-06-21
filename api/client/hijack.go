@@ -11,11 +11,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api"
+	"github.com/rayzhoull/moby/dockerversion"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/term"
+	"github.com/rayzhoull/moby/utils"
 )
 
 func (cli *DockerCli) dial() (net.Conn, error) {

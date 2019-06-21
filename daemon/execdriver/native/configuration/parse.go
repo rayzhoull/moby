@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/units"
-	"github.com/docker/libcontainer"
+	"github.com/rayzhoull/docker/libcontainer"
+	"github.com/rayzhoull/moby/pkg/units"
 )
 
 type Action func(*libcontainer.Config, interface{}, string) error

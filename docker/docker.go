@@ -9,12 +9,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/client"
-	"github.com/docker/docker/dockerversion"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/reexec"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api"
+	"github.com/rayzhoull/moby/api/client"
+	"github.com/rayzhoull/moby/dockerversion"
+	flag "github.com/rayzhoull/moby/pkg/mflag"
+	"github.com/rayzhoull/moby/reexec"
+	"github.com/rayzhoull/moby/utils"
 )
 
 const (

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/utils"
 )
 
 var (

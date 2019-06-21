@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 func (s *TagStore) Install(eng *engine.Engine) error {

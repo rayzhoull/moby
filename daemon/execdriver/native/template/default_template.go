@@ -1,9 +1,9 @@
 package template
 
 import (
-	"github.com/docker/libcontainer"
-	"github.com/docker/libcontainer/apparmor"
-	"github.com/docker/libcontainer/cgroups"
+	"github.com/rayzhoull/docker/libcontainer"
+	"github.com/rayzhoull/docker/libcontainer/apparmor"
+	"github.com/rayzhoull/docker/libcontainer/cgroups"
 )
 
 // New returns the docker default configuration for libcontainer

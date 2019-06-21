@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/client"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/api/client"
+	"github.com/rayzhoull/moby/api/daemon"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/term"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 func closeWrap(args ...io.Closer) error {

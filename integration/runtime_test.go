@@ -16,14 +16,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/reexec"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/daemon"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/nat"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/reexec"
+	"github.com/rayzhoull/moby/api/runconfig"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 const (

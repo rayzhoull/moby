@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/runconfig"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/runconfig"
 )
 
 func TestCreateNumberHostname(t *testing.T) {

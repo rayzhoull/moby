@@ -13,8 +13,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/reexec"
-	"github.com/docker/libcontainer/netlink"
+	"github.com/rayzhoull/docker/libcontainer/netlink"
+	"github.com/rayzhoull/moby/reexec"
 )
 
 // Args provided to the init function for a driver

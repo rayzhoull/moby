@@ -5,10 +5,10 @@ import (
 	"mime"
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/version"
+	"github.com/rayzhoull/moby/engine"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/parsers"
+	"github.com/rayzhoull/moby/pkg/version"
 )
 
 const (

@@ -18,11 +18,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/units"
-	"github.com/docker/libcontainer/label"
+	"github.com/rayzhoull/docker/libcontainer/label"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/parsers"
+	"github.com/rayzhoull/moby/api/pkg/units"
 )
 
 var (

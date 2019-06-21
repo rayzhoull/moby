@@ -7,11 +7,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/registry"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 // Retrieve the all the images to be uploaded in the correct order

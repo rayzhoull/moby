@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/archive"
+	"github.com/rayzhoull/moby/api/archive"
 )
 
 func TestBuildCacheADD(t *testing.T) {

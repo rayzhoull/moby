@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/parsers"
 )
 
 // CmdImageExport exports all images with the given tag. All versions

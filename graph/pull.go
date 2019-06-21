@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/registry"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 func (s *TagStore) CmdPull(job *engine.Job) engine.Status {

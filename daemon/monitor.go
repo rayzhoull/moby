@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
+	"github.com/rayzhoull/moby/api/daemon/execdriver"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/runconfig"
 )
 
 const defaultTimeIncrement = 100

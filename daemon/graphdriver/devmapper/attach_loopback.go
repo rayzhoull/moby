@@ -7,7 +7,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 func stringToLoopName(src string) [LoNameSize]uint8 {

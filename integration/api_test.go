@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/server"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/rayzhoull/moby/api/api"
+	"github.com/rayzhoull/moby/api/api/server"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/runconfig"
+	"github.com/rayzhoull/moby/api/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 )
 
 func TestGetContainersJSON(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/libcontainer/label"
+	"github.com/rayzhoull/docker/libcontainer/label"
+	"github.com/rayzhoull/moby/daemon/execdriver"
 )
 
 const LxcTemplate = `

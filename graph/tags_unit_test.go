@@ -2,11 +2,11 @@ package graph
 
 import (
 	"bytes"
-	"github.com/docker/docker/daemon/graphdriver"
-	_ "github.com/docker/docker/daemon/graphdriver/vfs" // import the vfs driver so it is used in the tests
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/utils"
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
+	_ "github.com/rayzhoull/moby/api/daemon/graphdriver/vfs" // import the vfs driver so it is used in the tests
+	"github.com/rayzhoull/moby/api/image"
+	"github.com/rayzhoull/moby/api/utils"
+	"github.com/rayzhoull/moby/api/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 	"io"
 	"os"
 	"path"

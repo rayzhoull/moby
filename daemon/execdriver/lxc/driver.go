@@ -16,13 +16,13 @@ import (
 
 	"github.com/kr/pty"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/utils"
-	"github.com/docker/libcontainer/cgroups"
-	"github.com/docker/libcontainer/label"
-	"github.com/docker/libcontainer/mount/nodes"
+	"github.com/rayzhoull/docker/libcontainer/cgroups"
+	"github.com/rayzhoull/docker/libcontainer/label"
+	"github.com/rayzhoull/docker/libcontainer/mount/nodes"
+	"github.com/rayzhoull/moby/daemon/execdriver"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/term"
+	"github.com/rayzhoull/moby/utils"
 )
 
 const DriverName = "lxc"

@@ -12,14 +12,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/truncindex"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/archive"
+	"github.com/rayzhoull/moby/daemon/graphdriver"
+	"github.com/rayzhoull/moby/dockerversion"
+	"github.com/rayzhoull/moby/image"
+	"github.com/rayzhoull/moby/pkg/log"
+	"github.com/rayzhoull/moby/pkg/truncindex"
+	"github.com/rayzhoull/moby/runconfig"
+	"github.com/rayzhoull/moby/utils"
 )
 
 // A Graph is a store for versioned filesystem images and the relationship between them.

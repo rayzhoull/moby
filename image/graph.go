@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/rayzhoull/moby/api/daemon/graphdriver"
 )
 
 type Graph interface {

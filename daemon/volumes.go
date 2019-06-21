@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/symlink"
+	"github.com/rayzhoull/moby/api/archive"
+	"github.com/rayzhoull/moby/api/daemon/execdriver"
+	"github.com/rayzhoull/moby/api/pkg/symlink"
 )
 
 type Volume struct {

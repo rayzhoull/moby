@@ -1,7 +1,7 @@
 package daemon
 
 import (
-	"github.com/docker/docker/nat"
+	"github.com/rayzhoull/moby/api/nat"
 	"testing"
 )
 

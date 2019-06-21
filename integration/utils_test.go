@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/rayzhoull/moby/api/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/builtins"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/api/builtins"
+	"github.com/rayzhoull/moby/api/daemon"
+	"github.com/rayzhoull/moby/api/engine"
+	"github.com/rayzhoull/moby/api/pkg/log"
+	"github.com/rayzhoull/moby/api/runconfig"
+	"github.com/rayzhoull/moby/api/utils"
 )
 
 // This file contains utility functions for docker's unit test suite.

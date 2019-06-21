@@ -19,8 +19,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/dockerversion"
+	"github.com/rayzhoull/moby/pkg/log"
 )
 
 type KeyValuePair struct {

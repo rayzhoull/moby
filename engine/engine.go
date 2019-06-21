@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/utils"
+	"github.com/rayzhoull/moby/utils"
 )
 
 // Installer is a standard interface for objects which can "install" themselves

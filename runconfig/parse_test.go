@@ -3,7 +3,7 @@ package runconfig
 import (
 	"testing"
 
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/rayzhoull/moby/api/pkg/parsers"
 )
 
 func TestParseLxcConfOpt(t *testing.T) {

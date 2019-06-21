@@ -39,7 +39,7 @@ When considering a cleanup task, we are looking for:
 
 ## Reporting Issues
 
-When reporting [issues](https://github.com/docker/docker/issues) on
+When reporting [issues](https://github.com/rayzhoull/moby/api/issues) on
 GitHub please include your host OS (Ubuntu 12.04, Fedora 19, etc).
 Please include:
 
@@ -86,7 +86,7 @@ else is working on the same thing.
 ### Create issues...
 
 Any significant improvement should be documented as [a GitHub
-issue](https://github.com/docker/docker/issues) before anybody
+issue](https://github.com/rayzhoull/moby/api/issues) before anybody
 starts working on it.
 
 ### ...but check for existing issues first!

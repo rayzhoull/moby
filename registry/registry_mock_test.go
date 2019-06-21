@@ -15,7 +15,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/docker/docker/pkg/log"
+	"github.com/rayzhoull/moby/api/pkg/log"
 )
 
 var (

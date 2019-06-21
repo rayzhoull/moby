@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/pkg/units"
+	"github.com/rayzhoull/moby/pkg/term"
+	"github.com/rayzhoull/moby/pkg/units"
 )
 
 type JSONError struct {

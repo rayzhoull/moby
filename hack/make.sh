@@ -6,7 +6,7 @@ set -e
 #
 # Requirements:
 # - The current directory should be a checkout of the docker source code
-#   (http://github.com/docker/docker). Whatever version is checked out
+#   (http://github.com/rayzhoull/moby/api). Whatever version is checked out
 #   will be built.
 # - The VERSION file, at the root of the repository, should exist, and
 #   will be used as Docker binary version and package version.
@@ -23,7 +23,7 @@ set -e
 
 set -o pipefail
 
-export DOCKER_PKG='github.com/docker/docker'
+export DOCKER_PKG='github.com/rayzhoull/moby/api'
 
 # We're a nice, sexy, little shell script, and people might try to run us;
 # but really, they shouldn't. We want to be in a container!

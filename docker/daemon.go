@@ -5,14 +5,14 @@ package main
 import (
 	"log"
 
-	"github.com/docker/docker/builtins"
-	"github.com/docker/docker/daemon"
-	_ "github.com/docker/docker/daemon/execdriver/lxc"
-	_ "github.com/docker/docker/daemon/execdriver/native"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/rayzhoull/moby/api/builtins"
+	"github.com/rayzhoull/moby/api/daemon"
+	_ "github.com/rayzhoull/moby/api/daemon/execdriver/lxc"
+	_ "github.com/rayzhoull/moby/api/daemon/execdriver/native"
+	"github.com/rayzhoull/moby/api/dockerversion"
+	"github.com/rayzhoull/moby/api/engine"
+	flag "github.com/rayzhoull/moby/api/pkg/mflag"
+	"github.com/rayzhoull/moby/api/pkg/signal"
 )
 
 const CanDaemon = true
